@@ -1,0 +1,1 @@
+ls -1p -t --group-directories-first | grep -v '^\.$' | grep -v '^\.\.$' | grep -v '^\.' | paste -sd ', ' -
